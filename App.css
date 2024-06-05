@@ -1,0 +1,73 @@
+.App {text-align: center;}
+.name{font-size: 30px;position: absolute;top: 3%; left: 20%; color: black;}
+.page{position: absolute;top: 12%; left: 20%;color: rgb(100, 99, 99);}
+.box{width: 22vw;height: 65vh;position: absolute;top: 34%; left: 8%;background: white;border-radius: 5px;box-shadow: 2px 10px 15px 4px rgb(179, 179, 179);}
+.silver,.gold,.platinum{position: absolute; color: #1b1b1b;left: 39.5%; top: 2%; font-size: 18.5px;}
+.platinum{left: 36.5%;}  .gold{ left: 43%;}
+.silver-price,.gold-price,.platinum-price{position: absolute;color: #1b1b1b;left: 33%; top: 9%;font-weight: 700;font-size: 18px;}
+.silver-price-cost,.gold-price-cost,.platinum-price-cost{font-size: 35px; font-weight: 700;color: #1b1b1b;}
+.silver-text,.gold-text,.platinum-text{font-size: 13px; color: rgb(119, 119, 119);position: absolute;top: 23%; left: 13.5%; text-align: center; line-height: 23px;border-bottom: 1px solid rgb(223, 223, 223);padding-bottom: 17px;}
+.platinum-text{left: 17.8%;}
+.metho,.mode,.plate{font-weight: 700;font-size: 14px;color: #1b1b1b;list-style-type: none;margin-top: 27px;}
+.method,.modes,.plates{margin-top: 193px; margin-left: 0.6vw;}
+.plates{margin-left: 0.4vw;}
+.first-btn{border: 2px solid purple; color: purple; position: absolute; top: 90%; left: 12.8%;border-radius: 20px; width: 12vw; height: 6vh; background-color: white;}
+.second-btn,.third-btn,.fourth-btn{border: 2px solid purple; width: 3vw; height: 3.7vh; position: absolute; background-color: white;border-radius: 20px;top: 66%; left: 23.4%; color: purple; text-align: center;}
+.third-btn,.fourth-btn{position:absolute;left: 53%;font-weight: 600; border: none;background: rgb(249, 196, 249);}
+.second-btn-one,.third-btn-one,.fourth-btn-one{top: 73.8%;}
+.second-btn-two,.third-btn-two,.fourth-btn-two{ top: 81.5%;}
+.box-one{ left: 37.5%;}
+.fourth-btn-one,.fourth-btn-two,.fourth-btn{left: 82.5%;}
+.box-two{left: 67%;}
+.first-btn-one,.first-btn-two{color: white; background: purple; left: 42.7%;}
+.first-btn-two{left: 72%; top: 90%;}
+.coupon{background: purple; width: 7.5vw; height: 4.5vh;position: absolute;top: 37.5%; left: 22.5%;border-radius: 20px 0 0 20px;border: none;color: white; font-size: 13px;padding-left: 10px; font-weight: 600;}
+.first-btn:hover{transform: scale(1.1);transition: 0.5s ease-in-out;}
+.person{border-radius: 50%;width: 9vw;height: 20.5vh;position: absolute;top: 4.5%;left: 9%;border: 3px solid rgb(128,0,128);}
+@media screen and (max-width:769px){
+  .person{width: 15vw;height: 14vh; left: 9%;}
+  .name{position: absolute; left: 28%; font-size: 24px; top: 6%;}
+  .page{left: 28%;font-size: 15px;top: 13%;}
+  .navbar{font-size: 16px;left: 5%;}
+  .profile{margin-right: 28px;}
+  .box{width: 55vw; height: 72vh; left: 22%;}
+  .box-one{top: 115%;left: 22%;}
+  .box-two{top: 195%;} .coupon{left: 61.2%;width: 17vw;} .silver-text{left: 16%;} .first-btn{width: 24vw;left: 38%; top: 95%;} .metho{margin-left: 5px;} .second-btn{width: 6.5vw; left: 63%;}
+  .gold-text{left: 15%;} .third-btn{width: 6.5vw; left: 63%; top: 147%;} .third-btn-one{top: 154.5%;} .third-btn-two{top: 162%;} .first-btn-one{top: 176%;} .first-btn-two{top: 257%;}
+  .platinum-text{left: 19%;} .plates{position: absolute; left: 1.5%;} .fourth-btn{top: 231.5%;left: 63%; width: 6.5vw;} .fourth-btn-one{top: 239%;} .fourth-btn-two{top: 246.5%;}}
+.link{text-decoration: none;color: #1b1b1b;} .link:hover{color: purple;}
+.new-person{width: 15vw; height: 36vh;position: absolute;top: 16%;left: 7%;position: fixed;}
+.new-name{position: absolute;top: 12%;left: 28%;font-size: 25px;color: #2a2a2a;}
+.location{color: grey;position: absolute;top: 14.9%;left: 42.2%;font-size: 12.4px;}
+.desc{color: purple;position: absolute;top: 18.7%;left: 28%;font-weight: 500;font-size: 14px;}
+.rate{font-size: 12px;font-weight: 500;color: rgb(136, 136, 136); position: absolute;top: 27.5%;left: 28%;}
+.rated{color: #2a2a2a;position: absolute;font-weight: 700;top: 29.7%;left: 28%;font-size: 19.5px;}
+.star,.star-1,.star-2,.star-3,.star-4{width: 1.3vw;position: absolute;top: 34%;left: 31.3%;}
+.star-1{left: 33%;} .star-2{left: 34.7%;} .star-3{left: 36.4%;} .star-4{left: 37.9%;top: 33.65%; width: 1.6vw;}
+.msg{width: 1.65vw;position: absolute;top: 44%;left: 28%;}
+.mesg{font-size: 14px;color: grey;position: absolute;top: 42%;left: 30.2%;}
+.blue{width: 8vw;height: 5.6vh;background-color: rgb(240, 175, 240);position: absolute;top:42.5%;left: 39%;}
+.check{width: 2vw;position: absolute;top: 23%;left: 5%;}
+.cont{color: purple;font-size: 14px;position: absolute;top: -8%;left: 30%;}
+.report{font-size: 14px;color: grey;position: absolute;top: 42%;left: 48.6%;}
+.time{width: 1.5vw;position: absolute;top: 53%;left: 28%;}
+.timeline{position: absolute;top: 51%;left: 30.3%; color: grey;font-size: 15px;}
+.user{width: 2.8vw;position: absolute;top: 53%;left: 37.5%;}
+.about{position: absolute;top: 51%;left: 40.5%;color: #1b1b1b;font-size: 16px; border-bottom: 2px solid purple;padding-bottom: 5.5px;}
+.info{color: grey;font-size: 15px;position: absolute;top: 60%;left: 28%;}
+.phone,.addr,.email,.birth,.birthdate,.gender{color: #1b1b1b;font-weight: 600;position: absolute;top: 67%;left: 28%;}
+.phone-number,.addr-location,.email-location,.birthdate,.gender-desc{color: purple;font-weight: 700;position: absolute;top: 67%;left: 37%;}
+.addr{top: 73.5%;} .addr-location{width: 30vw;font-size: 15px; top: 73.5%;color: #1b1b1b;font-size: 400;}
+.email{top: 86.2%;} .email-location{top: 86.5%;}
+.more{color: grey;font-size: 15px;position: absolute;top: 100%;left: 28%;}
+.birth{position: absolute;top: 108%;left: 28%;} .birthdate{top: 108%;color: #1b1b1b;}
+.gender{top: 113%;} .gender-desc{top: 113%;color: #1b1b1b;}
+.mark{position: absolute;height: 34.8vh;} 
+.pepl{width: 11vw;height: 26vh; position: absolute;border-radius: 50%;border: 6px solid white;left: 14%;top: 21%;z-index: 11;}
+.back{background-color: rgb(220, 220, 220);width: 99.5vw;height: 130vh;}
+.posts{background-color: white;width: 40vw;height: 70vh;position: absolute;top: 94%;left: 23%; z-index: 1;}
+.go-back-btn{width: 9vw;height: 6vh;background: purple;position: absolute;top: 142%;z-index: 1;border: none;left:77.5%;color: white;}
+.go-back-btn:hover{transform: scale(1.1);transition: 0.5s ease;}
+.purple{background-color: purple;width: 25vw;height: 0.8vh;position: absolute;top: 52.5%;right: 0.1%;}
+.go-back-text{color: white;text-decoration: none;}
+.newest{font-size: 25px; position: absolute;top: 6%;left:10%;}
